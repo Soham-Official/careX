@@ -27,7 +27,7 @@
  - [Heart Attack](https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset): Suppor Vector Classifier(94%)
  - [Anemia](https://www.kaggle.com/mansoordaku/ckdisease): Random Forest Classifier (90%)
 
-[Backend](https://www.kaggle.com/uciml/pima-indians-diabetes-database) Code of this App
+[Backend](https://github.com/Soham-Official/careX_backend) Code of this App
 
 ## How to Use ?
  Download the .apk file from this repository.
