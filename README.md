@@ -1,5 +1,5 @@
 # CAREX  
 ### `A health Prediction App`
 
-<img src="img1.jpeg" width=100/>
+<img src="img1.jpeg" width=200/>
 
