@@ -7,3 +7,13 @@
 
 ### `Frontend`
  - React Native
+ - Expo
+ - React Native Paper
+ - React Native Element
+
+### `Backend`
+ - Python
+ - Flask
+ - Scikit Learn
+ - Pandas
+ - Numpy
