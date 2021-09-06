@@ -34,9 +34,9 @@ const Diabetes = () => {
     if (!gender && !pregnancies) {
       return alert("Please Fill all the fields");
     }
-    // if (gender) {
-    //   setPregnancies(0);
-    // }
+    //     if (gender) {
+    //       setPregnancies(0);
+    //     }
     setData(false);
     fetch("https://carexserver.herokuapp.com/diabetes_predict", {
       method: "post",
