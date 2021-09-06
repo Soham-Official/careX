@@ -14,9 +14,9 @@ import { TextInput } from "react-native-paper";
 import { RadioButton } from "react-native-paper";
 const Diabetes = () => {
   const [shift, setShift] = useState(false);
-  const [gender, setGender] = useState(false);
+  const [gender, setGender] = useState(true);
   const [glucose, setGlucose] = useState("");
-  const [pregnancies, setPregnancies] = useState("");
+  const [pregnancies, setPregnancies] = useState("0");
   const [bp, setBp] = useState("");
   const [bmi, setBmi] = useState("");
   const [dpf, setDpf] = useState("");
@@ -34,9 +34,9 @@ const Diabetes = () => {
     if (!gender && !pregnancies) {
       return alert("Please Fill all the fields");
     }
-    if (gender) {
-      setPregnancies(0);
-    }
+    // if (gender) {
+    //   setPregnancies(0);
+    // }
     setData(false);
     fetch("https://carexserver.herokuapp.com/diabetes_predict", {
       method: "post",
